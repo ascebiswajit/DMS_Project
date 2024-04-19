@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      CMS Project
+      CMS Projects
       </header>
     </div>
   );
