@@ -4,8 +4,7 @@
   "description": "This is a DMS project",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon ./src/app.js"
   },
   "author": "Anil,Biswajit,Arati",
   "license": "ISC",
