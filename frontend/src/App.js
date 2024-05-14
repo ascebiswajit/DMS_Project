@@ -1,12 +1,22 @@
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
+
+import { Route, Routes } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
+import LoginPage from "./components/LoginPage";
+
 
 function App() {
   return (
-    <div className="App">
-<Header/>
-<Sidebar/>
-    </div>
+
+    <>
+    <Routes>
+      <Route path="/login" element={<LoginPage/>}></Route>
+      <Route path="/dashboard" element={<Dashboard/>}></Route>
+      <Route path="/" element={<Dashboard/>}></Route>
+
+
+      {/* <Route path="/register" element={<SignUp/>}></Route> */}
+    </Routes>
+    </>
   );
 }
 
