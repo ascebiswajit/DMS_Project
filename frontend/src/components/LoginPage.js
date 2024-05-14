@@ -12,7 +12,7 @@ const LoginPage = () => {
                 <div className="d-flex justify-content-center py-4">
                   <a href="index.html" className="logo d-flex align-items-center w-auto">
                     <img src="assets/img/logo.png" alt="" />
-                    <span className="d-none d-lg-block">NiceAdmin</span>
+                    <span className="d-none d-lg-block">DMS</span>
                   </a>
                 </div>
                 <div className="card mb-3">
@@ -51,7 +51,7 @@ const LoginPage = () => {
                   </div>
                 </div>
                 <div className="credits">
-                  Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                  Designed by <a href="https://bootstrapmade.com/">Freelance</a>
                 </div>
               </div>
             </div>
