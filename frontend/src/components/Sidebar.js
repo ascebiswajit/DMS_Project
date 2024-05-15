@@ -5,32 +5,32 @@ const Sidebar = () => {
     <aside id="sidebar" className="sidebar">
       <ul className="sidebar-nav" id="sidebar-nav">
         <li className="nav-item">
-          <a className="nav-link" href="index.html">
+          <a className="nav-link" href="/">
             <i className="bi bi-grid"></i>
             <span>Dashboard</span>
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link collapsed" href="index.html">
+          <a className="nav-link collapsed" href="/">
             <i className="bi bi-person"></i>
             <span>Docs - Form</span>
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="tables-data.html">
+          <a className="nav-link" href="/Users">
             <i className="bi bi-grid"></i>
             <span>Users</span>
           </a>
         </li>
         <li className="nav-heading">Pages</li>
         <li className="nav-item">
-          <a className="nav-link collapsed" href="users-profile.html">
+          <a className="nav-link collapsed" href="/profile">
             <i className="bi bi-person"></i>
             <span>Profile</span>
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link collapsed" href="pages-register.html">
+          <a className="nav-link collapsed" href="/register">
             <i className="bi bi-card-list"></i>
             <span>Register</span>
           </a>
@@ -42,7 +42,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link collapsed" href="pages-error-404.html">
+          <a className="nav-link collapsed" href="/$0$">
             <i className="bi bi-dash-circle"></i>
             <span>Error 404</span>
           </a>

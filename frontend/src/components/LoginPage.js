@@ -10,7 +10,7 @@ const LoginPage = () => {
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
                 <div className="d-flex justify-content-center py-4">
-                  <a href="index.html" className="logo d-flex align-items-center w-auto">
+                  <a href="/" className="logo d-flex align-items-center w-auto">
                     <img src="assets/img/logo.png" alt="" />
                     <span className="d-none d-lg-block">DMS</span>
                   </a>
@@ -45,7 +45,7 @@ const LoginPage = () => {
                         <button className="btn btn-primary w-100" type="submit">Login</button>
                       </div>
                       <div className="col-12">
-                        <p className="small mb-0">Don't have account? <a href="pages-register.html">Create an account</a></p>
+                        <p className="small mb-0">Don't have account? <a href="/login">Create an account</a></p>
                       </div>
                     </form>
                   </div>
