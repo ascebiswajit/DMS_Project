@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
-    <>
     <main>
       <div className="container">
         <section className="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
@@ -10,10 +10,10 @@ const LoginPage = () => {
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
                 <div className="d-flex justify-content-center py-4">
-                  <a href="/" className="logo d-flex align-items-center w-auto">
+                  <Link to="/" className="logo d-flex align-items-center w-auto">
                     <img src="assets/img/logo.png" alt="" />
                     <span className="d-none d-lg-block">DMS</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="card mb-3">
                   <div className="card-body">
@@ -45,7 +45,7 @@ const LoginPage = () => {
                         <button className="btn btn-primary w-100" type="submit">Login</button>
                       </div>
                       <div className="col-12">
-                        <p className="small mb-0">Don't have account? <a href="/login">Create an account</a></p>
+                        <p className="small mb-0">Don't have an account? <Link to="/register">Create an account</Link></p>
                       </div>
                     </form>
                   </div>
@@ -60,7 +60,6 @@ const LoginPage = () => {
       </div>
       <a href="/" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
     </main>
-    </>
   );
 };
 

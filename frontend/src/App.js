@@ -1,9 +1,9 @@
 
 import { Route, Routes } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
-import LoginPage from "./components/LoginPage";
-import RegisterPage from "./components/RegisterPage";
-import ErrorPage from "./components/ErrorPage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
+import ErrorPage from "./pages/ErrorPage";
 
 
 function App() {

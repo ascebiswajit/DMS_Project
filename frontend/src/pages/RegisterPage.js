@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function RegisterPage() {
   return (
@@ -9,10 +10,10 @@ function RegisterPage() {
             <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
               <div className="d-flex justify-content-center py-4">
-                <a href="/" className="logo d-flex align-items-center w-auto">
+                <Link to="/" className="logo d-flex align-items-center w-auto">
                   <img src="assets/img/logo.png" alt="" />
                   <span className="d-none d-lg-block">DMS</span>
-                </a>
+                </Link>
               </div>
 
               <div className="card mb-3">
@@ -21,20 +22,20 @@ function RegisterPage() {
 
                   <div className="pt-4 pb-2">
                     <h5 className="card-title text-center pb-0 fs-4">Create an Account</h5>
-                    <p className="text-center small">Enter your personal details to create account</p>
+                    <p className="text-center small">Enter your personal details to create an account</p>
                   </div>
 
                   <form className="row g-3 needs-validation" noValidate>
                     <div className="col-12">
                       <label htmlFor="yourName" className="form-label">Your Name</label>
                       <input type="text" name="name" className="form-control" id="yourName" required />
-                      <div className="invalid-feedback">Please, enter your name!</div>
+                      <div className="invalid-feedback">Please enter your name!</div>
                     </div>
 
                     <div className="col-12">
                       <label htmlFor="yourEmail" className="form-label">Your Email</label>
                       <input type="email" name="email" className="form-control" id="yourEmail" required />
-                      <div className="invalid-feedback">Please enter a valid Email address!</div>
+                      <div className="invalid-feedback">Please enter a valid email address!</div>
                     </div>
 
                     <div className="col-12">
@@ -63,7 +64,7 @@ function RegisterPage() {
                       <button className="btn btn-primary w-100" type="submit">Create Account</button>
                     </div>
                     <div className="col-12">
-                      <p className="small mb-0">Already have an account? <a href="/login">Log in</a></p>
+                      <p className="small mb-0">Already have an account? <Link to="/login">Log in</Link></p>
                     </div>
                   </form>
 
